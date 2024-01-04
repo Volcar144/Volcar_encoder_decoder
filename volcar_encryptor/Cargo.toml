@@ -1,9 +1,0 @@
-[package]
-name = "my_volcar_encryptor"  # Replace with your desired project name
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-tauri = { version = "1", features = ["window-create", "dialog-open"] }
-rust-crypto = "0.4"
-hex = { version = "0.4" }
